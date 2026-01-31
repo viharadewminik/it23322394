@@ -1,0 +1,27 @@
+{
+  "name": "it23322394",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":  {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viharadewminik/it23322394.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viharadewminik/it23322394/issues"
+  },
+  "homepage": "https://github.com/viharadewminik/it23322394#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0"
+  }
+}
